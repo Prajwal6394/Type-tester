@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,200;0,400;1,100;1,200&family=Roboto:wght@100&family=Tapestry&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #282b53;
+}
+
+body,
+.quote-input {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold ;
+}
+
+.container{
+    background-color: rgb(230, 230, 100);
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 700px;
+    max-width: 90%;
+}
+
+.timer{
+    position: absolute;
+    top: 2rem;
+    font-size: 3rem;
+    color: yellow;
+    font-weight: bold;
+
+}
+
+.quote-display{
+    margin-bottom: 1rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+}
+
+.quote-input{
+    background-color: transparent;
+    border: 2px solid rgb(157, 157, 92);
+    outline: none;
+    width: 100%;
+    height: 8rem;
+    margin: auto;
+    resize: none;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+}
+
+.quote-input:focus{
+    border: 2px solid rgb(27, 25, 25);
+}
