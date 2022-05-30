@@ -58,3 +58,13 @@ body,
 .quote-input:focus{
     border: 2px solid rgb(27, 25, 25);
 }
+
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+    text-decoration: underline;
+}
